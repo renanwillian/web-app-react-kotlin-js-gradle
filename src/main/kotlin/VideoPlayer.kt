@@ -17,6 +17,7 @@ val VideoPlayer = FC<VideoPlayerProps> { props ->
             position = Position.absolute
             top = 10.px
             right = 10.px
+            width = 50.vw
         }
         h3 {
             +"${props.video.speaker}: ${props.video.title}"
