@@ -1,18 +1,7 @@
-import kotlinx.coroutines.async
 import react.*
-import react.dom.*
-import kotlinx.browser.window
-import kotlinx.coroutines.*
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
-import react.css.css
-import csstype.Position
-import csstype.px
 import react.dom.html.ReactHTML.h1
 import react.dom.html.ReactHTML.h3
 import react.dom.html.ReactHTML.div
-import react.dom.html.ReactHTML.p
-import react.dom.html.ReactHTML.img
 
 data class Video(
     val id: Int,
